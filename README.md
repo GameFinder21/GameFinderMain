@@ -35,8 +35,9 @@ Allow users to discover new games and keep track of their current inventory.  (t
 
 **Optional Nice-to-have Stories**
 
-* Login option 
-* ...
+* Login and Logout option 
+* User profile page
+* Bookmarks page 
 
 ### 2. Screen Archetypes
 
