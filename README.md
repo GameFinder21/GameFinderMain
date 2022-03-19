@@ -11,16 +11,16 @@ Original App Design Project - README Template
 
 ## Overview
 ### Description
-[Description of your app]
+Allow users to discover new games and keep track of their current inventory.  (to be edited)
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
-- **Category:**
-- **Mobile:**
-- **Story:**
-- **Market:**
-- **Habit:**
-- **Scope:**
+- **Category:** Social networking / game  (to be edited)
+- **Mobile:** This app was developed for mobile phones  (to be edited)
+- **Story:** Show newly released games and promote games better suited to the user (to be edited)
+- **Market:** People interested in games  (to be edited)
+- **Habit:** This app could be used as often or unoften as the user wanted depending on how intereted they are in the current gaming market. 
+- **Scope:** At first we would show the newly released game to the user, and then with time as the user likes games/adds to their invenotry we can promote games better suited to their taste.(to be edited) 
 
 ## Product Spec
 
