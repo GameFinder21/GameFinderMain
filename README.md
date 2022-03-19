@@ -22,18 +22,20 @@ Allow users to discover new games and keep track of their current inventory.  (t
 - **Habit:** This app could be used as often or unoften as the user wanted depending on how intereted they are in the current gaming market. 
 - **Scope:** At first we would show the newly released game to the user, and then with time as the user likes games/adds to their invenotry we can promote games better suited to their taste.(to be edited) 
 
-## Product Spec
+## Product Spec. (to be edited)
 
 ### 1. User Stories (Required and Optional)
 
 **Required Must-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* Automatically shows users newly released games 
+* User scrolls through games and can click on game image for more information 
+* User can heart game they find interesting to add to their inventory 
+* User can go to inventory of likes 
 
 **Optional Nice-to-have Stories**
 
-* [fill in your required user stories here]
+* Login option 
 * ...
 
 ### 2. Screen Archetypes
