@@ -36,34 +36,27 @@ Allow users to discover new games and keep track of their current inventory.  (t
 **Optional Nice-to-have Stories**
 
 * Login and Logout option 
-* User profile page
-* Bookmarks page 
+* User profile pages for each user
+* Bookmarks pages for each user 
 
 ### 2. Screen Archetypes
 
-* [list first screen here]
-   * [list associated required story here]
-   * ...
-* [list second screen here]
-   * [list associated required story here]
-   * ...
+* Games screen
+   * Automatically shows users newly released games
+* Game information screen 
+   * Allows user to see the details for each game 
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+* Game selection
+* Home page
 
 **Flow Navigation** (Screen to Screen)
 
-* [list first screen here]
-   * [list screen navigation here]
-   * ...
-* [list second screen here]
-   * [list screen navigation here]
-   * ...
+* Game infomation
+   * Jumps to a more deatil page
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
