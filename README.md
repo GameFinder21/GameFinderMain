@@ -1,6 +1,3 @@
-
-===
-
 # GameFinder
 
 ## Table of Contents
