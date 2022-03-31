@@ -78,8 +78,7 @@ Allow users to discover new games and keep track of their current inventory.  (t
    | image         | File     | image from API for each game|
    | comment       | String   | comment from API for each game |
    | slug          | String   | slug from API for each game|
-   | likesCount    | Number   | number of likes for the post |
-   | commentsCount | Number   | number of comments that has been posted to an game (Optional)| 
+   | commentsCount | Number   | number of comments that has been posted to an game| 
    | createdAt     | DateTime | date when like is created (default field) (Optional)| 
    | updatedAt     | DateTime | date when like is last updated (default field) (Optional)|
 ### Networking
