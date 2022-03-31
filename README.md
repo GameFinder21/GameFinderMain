@@ -34,7 +34,8 @@ Allow users to discover new games and keep track of their current inventory.  (t
 
 * Login and Logout option 
 * User profile pages for each user
-* Bookmarks pages for each user 
+* Bookmarks pages for each user
+* Adding comment on a post
 
 ### 2. Screen Archetypes
 
@@ -56,8 +57,7 @@ Allow users to discover new games and keep track of their current inventory.  (t
    * Jumps to a more deatil page
 
 ## Wireframes
-[Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+<img src="https://user-images.githubusercontent.com/90946653/161089641-b6e91b8a-8c60-4de8-8fe2-0210af51bbaf.JPG" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 
@@ -66,3 +66,33 @@ Allow users to discover new games and keep track of their current inventory.  (t
 ## Schema 
 [This section will be completed in Unit 9]
 ### Models
+#### Post
+
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | objectId      | String   | unique id for the user post (default field) |
+   | author        | Pointer to User| image author |
+   | synopsis      | String   | game synopsis from API |
+   | title         | String   | game title from API |
+   | rating        | Number   | game rating from API |
+   | image         | File     | image from API |
+   | comment       | String   | comment from API |
+   | likesCount    | Number   | number of likes for the post |
+   | commentsCount | Number   | number of comments that has been posted to an game (Optional)| 
+   | createdAt     | DateTime | date when like is created (default field) (Optional)| 
+   | updatedAt     | DateTime | date when like is last updated (default field) (Optional)|
+### Networking
+#### List of network requests by screen
+   - Home Feed Screen
+      - (Read/GET) Get all posts from game API 
+      - (Create/POST) Create a new like on a post 
+      - (Delete) Delete existing like
+      - (Create/POST) Create a new comment on a post (Optional)
+      - (Delete) Delete existing comment (Optional)
+   - Profile Screen
+      - (Read/GET) Query logged in user object
+      - (Update/PUT) Update user 'liked' game 
+      - (Update/PUT) Update user profile image(Optional)
+
+##### Game API
+- Base URL - [https://rawg.io/apidocs#use-cases](https://rawg.io/apidocs#use-cases)
