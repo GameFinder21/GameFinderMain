@@ -75,8 +75,9 @@ Allow users to discover new games and keep track of their current inventory.  (t
    | synopsis      | String   | game synopsis from API |
    | title         | String   | game title from API |
    | rating        | Number   | game rating from API |
-   | image         | File     | image from API |
-   | comment       | String   | comment from API |
+   | image         | File     | image from API for each game|
+   | comment       | String   | comment from API for each game |
+   | slug          | String   | slug from API for each game|
    | likesCount    | Number   | number of likes for the post |
    | commentsCount | Number   | number of comments that has been posted to an game (Optional)| 
    | createdAt     | DateTime | date when like is created (default field) (Optional)| 
