@@ -25,10 +25,10 @@ Allow users to discover new games and keep track of their current inventory.  (t
 
 **Required Must-have Stories**
 
-* Automatically shows users newly released games 
-* User scrolls through games and can click on game image for more information 
-* User can heart game they find interesting to add to their inventory 
-* User can go to inventory of likes 
+[X]Automatically shows users newly released games
+[] User scrolls through games and can click on game image for more information 
+[] User can heart game they find interesting to add to their inventory 
+[] User can go to inventory of likes 
 
 **Optional Nice-to-have Stories**
 
