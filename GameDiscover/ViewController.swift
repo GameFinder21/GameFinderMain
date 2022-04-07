@@ -52,6 +52,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         let cell = tableView.dequeueReusableCell(withIdentifier: "GameCell") as! GameCell
     
         let game = games[indexPath.row]
+       // let platformLabel = game["platforms"]?["platform"]["name"] as! String
         let name = game["name"] as! String
         let rating = game["rating"] as! Double
         let releasedDate = game["released"] as! String
