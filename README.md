@@ -56,6 +56,9 @@ Allow users to discover new games and keep track of their current inventory.  (t
 * Game infomation
    * Jumps to a more deatil page
 
+### Current Video walkthrough - last updated April 7,2022
+<img src='https://media.giphy.com/media/tADWLRViPwWMzUishm/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 ## Wireframes
 <img src="https://user-images.githubusercontent.com/90946653/161089641-b6e91b8a-8c60-4de8-8fe2-0210af51bbaf.JPG" width=600>
 
