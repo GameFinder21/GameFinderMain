@@ -16,6 +16,7 @@
 		966F16B527F8CF8800AF37BF /* GameDiscoverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966F16B427F8CF8800AF37BF /* GameDiscoverTests.swift */; };
 		966F16BF27F8CF8800AF37BF /* GameDiscoverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966F16BE27F8CF8800AF37BF /* GameDiscoverUITests.swift */; };
 		966F16C127F8CF8800AF37BF /* GameDiscoverUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966F16C027F8CF8800AF37BF /* GameDiscoverUITestsLaunchTests.swift */; };
+		CA13A09D27FE726A0009FFB3 /* GameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA13A09C27FE726A0009FFB3 /* GameCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		966F16BA27F8CF8800AF37BF /* GameDiscoverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameDiscoverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		966F16BE27F8CF8800AF37BF /* GameDiscoverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDiscoverUITests.swift; sourceTree = "<group>"; };
 		966F16C027F8CF8800AF37BF /* GameDiscoverUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDiscoverUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CA13A09C27FE726A0009FFB3 /* GameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				966F16A627F8CF8800AF37BF /* Assets.xcassets */,
 				966F16A827F8CF8800AF37BF /* LaunchScreen.storyboard */,
 				966F16AB27F8CF8800AF37BF /* Info.plist */,
+				CA13A09C27FE726A0009FFB3 /* GameCell.swift */,
 			);
 			path = GameDiscover;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				966F16A227F8CF8600AF37BF /* ViewController.swift in Sources */,
 				966F169E27F8CF8600AF37BF /* AppDelegate.swift in Sources */,
 				966F16A027F8CF8600AF37BF /* SceneDelegate.swift in Sources */,
+				CA13A09D27FE726A0009FFB3 /* GameCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

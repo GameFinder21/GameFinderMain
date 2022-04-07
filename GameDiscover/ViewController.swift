@@ -48,12 +48,16 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell()
-        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "GameCell") as! GameCell
+    
         let game = games[indexPath.row]
-        let name = games["name"] as! String
+        let name = game["name"] as! String
+        let rating = game["rating"] as! String
+        let description = game["description"] as! String
         
-        cell.textLabel?.text = name
+        cell.nameLabel.text = name
+        cell.ratingLabel.text = rating
+        cell.descriptionLabel.text = description
         
         return cell
     }
