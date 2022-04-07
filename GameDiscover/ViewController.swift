@@ -7,13 +7,20 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
+    
+
+    @IBOutlet weak var tableView: UITableView!
+    
     var games = [[String:Any]]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        tableView.dataSource = self
+        tableView.delegate = self
         
         let url = URL(string: "https://api.rawg.io/api/games?key=8c575d35efc34da58900f996ea2c5d8d&dates=2021-09-01,2021-09-01&platforms=18,1,7")!
         let request = URLRequest(url: url, cachePolicy: .reloadIgnoringLocalCacheData, timeoutInterval: 10)
@@ -27,12 +34,28 @@ class ViewController: UIViewController {
                  
                  self.games = dataDictionary["results"] as! [[String:Any]]
                  
+                 self.tableView.reloadData()
+                 
                  print(dataDictionary)
              }
         }
         task.resume()
     }
 
-
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return games.count
+        
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = UITableViewCell()
+        
+        let game = games[indexPath.row]
+        let name = games["name"] as! String
+        
+        cell.textLabel?.text = name
+        
+        return cell
+    }
 }
 
