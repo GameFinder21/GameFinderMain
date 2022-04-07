@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1AA09C8A61E856194E23396E /* Pods_GameDiscover.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B72A4049913E6CA5ABEEE2CD /* Pods_GameDiscover.framework */; };
+		46AEBBDD5A4147ACE26D677A /* Pods_GameDiscoverTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9C942C5522F2BB6970706EA /* Pods_GameDiscoverTests.framework */; };
 		966F169E27F8CF8600AF37BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966F169D27F8CF8600AF37BF /* AppDelegate.swift */; };
 		966F16A027F8CF8600AF37BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966F169F27F8CF8600AF37BF /* SceneDelegate.swift */; };
 		966F16A227F8CF8600AF37BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966F16A127F8CF8600AF37BF /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 		966F16BF27F8CF8800AF37BF /* GameDiscoverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966F16BE27F8CF8800AF37BF /* GameDiscoverUITests.swift */; };
 		966F16C127F8CF8800AF37BF /* GameDiscoverUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966F16C027F8CF8800AF37BF /* GameDiscoverUITestsLaunchTests.swift */; };
 		CA13A09D27FE726A0009FFB3 /* GameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA13A09C27FE726A0009FFB3 /* GameCell.swift */; };
+		CA13A0A027FE790B0009FFB3 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = CA13A09F27FE790B0009FFB3 /* AlamofireImage */; };
+		D6D7921FCBE120A89FE736EE /* Pods_GameDiscover_GameDiscoverUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED5A64F8F7804CE546762141 /* Pods_GameDiscover_GameDiscoverUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		161486C9D862A4F2A66B94D5 /* Pods-GameDiscoverTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameDiscoverTests.release.xcconfig"; path = "Target Support Files/Pods-GameDiscoverTests/Pods-GameDiscoverTests.release.xcconfig"; sourceTree = "<group>"; };
+		7038AEBFAC038222CEAFF621 /* Pods-GameDiscover-GameDiscoverUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameDiscover-GameDiscoverUITests.release.xcconfig"; path = "Target Support Files/Pods-GameDiscover-GameDiscoverUITests/Pods-GameDiscover-GameDiscoverUITests.release.xcconfig"; sourceTree = "<group>"; };
+		73EBBB7FD07A20F02D28C290 /* Pods-GameDiscover.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameDiscover.debug.xcconfig"; path = "Target Support Files/Pods-GameDiscover/Pods-GameDiscover.debug.xcconfig"; sourceTree = "<group>"; };
+		7C9E593241598AEB2BA52D81 /* Pods-GameDiscover.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameDiscover.release.xcconfig"; path = "Target Support Files/Pods-GameDiscover/Pods-GameDiscover.release.xcconfig"; sourceTree = "<group>"; };
+		81B77054A49BAC13ACA5F058 /* Pods-GameDiscoverTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameDiscoverTests.debug.xcconfig"; path = "Target Support Files/Pods-GameDiscoverTests/Pods-GameDiscoverTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8F9451784205EFF453921B89 /* Pods-GameDiscover-GameDiscoverUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameDiscover-GameDiscoverUITests.debug.xcconfig"; path = "Target Support Files/Pods-GameDiscover-GameDiscoverUITests/Pods-GameDiscover-GameDiscoverUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		966F169A27F8CF8600AF37BF /* GameDiscover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameDiscover.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		966F169D27F8CF8600AF37BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		966F169F27F8CF8600AF37BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,7 +60,10 @@
 		966F16BA27F8CF8800AF37BF /* GameDiscoverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameDiscoverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		966F16BE27F8CF8800AF37BF /* GameDiscoverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDiscoverUITests.swift; sourceTree = "<group>"; };
 		966F16C027F8CF8800AF37BF /* GameDiscoverUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDiscoverUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B72A4049913E6CA5ABEEE2CD /* Pods_GameDiscover.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GameDiscover.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA13A09C27FE726A0009FFB3 /* GameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCell.swift; sourceTree = "<group>"; };
+		E9C942C5522F2BB6970706EA /* Pods_GameDiscoverTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GameDiscoverTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED5A64F8F7804CE546762141 /* Pods_GameDiscover_GameDiscoverUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GameDiscover_GameDiscoverUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA13A0A027FE790B0009FFB3 /* AlamofireImage in Frameworks */,
+				1AA09C8A61E856194E23396E /* Pods_GameDiscover.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46AEBBDD5A4147ACE26D677A /* Pods_GameDiscoverTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +88,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6D7921FCBE120A89FE736EE /* Pods_GameDiscover_GameDiscoverUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C1BA85E148BEC1149648BCF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73EBBB7FD07A20F02D28C290 /* Pods-GameDiscover.debug.xcconfig */,
+				7C9E593241598AEB2BA52D81 /* Pods-GameDiscover.release.xcconfig */,
+				8F9451784205EFF453921B89 /* Pods-GameDiscover-GameDiscoverUITests.debug.xcconfig */,
+				7038AEBFAC038222CEAFF621 /* Pods-GameDiscover-GameDiscoverUITests.release.xcconfig */,
+				81B77054A49BAC13ACA5F058 /* Pods-GameDiscoverTests.debug.xcconfig */,
+				161486C9D862A4F2A66B94D5 /* Pods-GameDiscoverTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		56874831523CC1F14815BDA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B72A4049913E6CA5ABEEE2CD /* Pods_GameDiscover.framework */,
+				ED5A64F8F7804CE546762141 /* Pods_GameDiscover_GameDiscoverUITests.framework */,
+				E9C942C5522F2BB6970706EA /* Pods_GameDiscoverTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		966F169127F8CF8600AF37BF = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +126,8 @@
 				966F16B327F8CF8800AF37BF /* GameDiscoverTests */,
 				966F16BD27F8CF8800AF37BF /* GameDiscoverUITests */,
 				966F169B27F8CF8600AF37BF /* Products */,
+				0C1BA85E148BEC1149648BCF /* Pods */,
+				56874831523CC1F14815BDA7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,15 +180,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 966F16C427F8CF8800AF37BF /* Build configuration list for PBXNativeTarget "GameDiscover" */;
 			buildPhases = (
+				D47D388E0194C068FD190F81 /* [CP] Check Pods Manifest.lock */,
 				966F169627F8CF8600AF37BF /* Sources */,
 				966F169727F8CF8600AF37BF /* Frameworks */,
 				966F169827F8CF8600AF37BF /* Resources */,
+				52682CF0FF066812C662FA2E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = GameDiscover;
+			packageProductDependencies = (
+				CA13A09F27FE790B0009FFB3 /* AlamofireImage */,
+			);
 			productName = GameDiscover;
 			productReference = 966F169A27F8CF8600AF37BF /* GameDiscover.app */;
 			productType = "com.apple.product-type.application";
@@ -154,6 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 966F16C727F8CF8800AF37BF /* Build configuration list for PBXNativeTarget "GameDiscoverTests" */;
 			buildPhases = (
+				8F2A596B2D9FC065567651E3 /* [CP] Check Pods Manifest.lock */,
 				966F16AC27F8CF8800AF37BF /* Sources */,
 				966F16AD27F8CF8800AF37BF /* Frameworks */,
 				966F16AE27F8CF8800AF37BF /* Resources */,
@@ -172,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 966F16CA27F8CF8800AF37BF /* Build configuration list for PBXNativeTarget "GameDiscoverUITests" */;
 			buildPhases = (
+				F2DF392FE8854A47BA39E74E /* [CP] Check Pods Manifest.lock */,
 				966F16B627F8CF8800AF37BF /* Sources */,
 				966F16B727F8CF8800AF37BF /* Frameworks */,
 				966F16B827F8CF8800AF37BF /* Resources */,
+				57B3BD7EE05238B80B5FADEC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -218,6 +269,9 @@
 				Base,
 			);
 			mainGroup = 966F169127F8CF8600AF37BF;
+			packageReferences = (
+				CA13A09E27FE790B0009FFB3 /* XCRemoteSwiftPackageReference "AlamofireImage" */,
+			);
 			productRefGroup = 966F169B27F8CF8600AF37BF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -255,6 +309,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52682CF0FF066812C662FA2E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GameDiscover/Pods-GameDiscover-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GameDiscover/Pods-GameDiscover-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GameDiscover/Pods-GameDiscover-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57B3BD7EE05238B80B5FADEC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GameDiscover-GameDiscoverUITests/Pods-GameDiscover-GameDiscoverUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GameDiscover-GameDiscoverUITests/Pods-GameDiscover-GameDiscoverUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GameDiscover-GameDiscoverUITests/Pods-GameDiscover-GameDiscoverUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F2A596B2D9FC065567651E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GameDiscoverTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D47D388E0194C068FD190F81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GameDiscover-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2DF392FE8854A47BA39E74E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GameDiscover-GameDiscoverUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		966F169627F8CF8600AF37BF /* Sources */ = {
@@ -438,6 +595,7 @@
 		};
 		966F16C527F8CF8800AF37BF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73EBBB7FD07A20F02D28C290 /* Pods-GameDiscover.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -466,6 +624,7 @@
 		};
 		966F16C627F8CF8800AF37BF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C9E593241598AEB2BA52D81 /* Pods-GameDiscover.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -494,6 +653,7 @@
 		};
 		966F16C827F8CF8800AF37BF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81B77054A49BAC13ACA5F058 /* Pods-GameDiscoverTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -514,6 +674,7 @@
 		};
 		966F16C927F8CF8800AF37BF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 161486C9D862A4F2A66B94D5 /* Pods-GameDiscoverTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -534,6 +695,7 @@
 		};
 		966F16CB27F8CF8800AF37BF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F9451784205EFF453921B89 /* Pods-GameDiscover-GameDiscoverUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -552,6 +714,7 @@
 		};
 		966F16CC27F8CF8800AF37BF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7038AEBFAC038222CEAFF621 /* Pods-GameDiscover-GameDiscoverUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -608,6 +771,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CA13A09E27FE790B0009FFB3 /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/AlamofireImage";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CA13A09F27FE790B0009FFB3 /* AlamofireImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CA13A09E27FE790B0009FFB3 /* XCRemoteSwiftPackageReference "AlamofireImage" */;
+			productName = AlamofireImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 966F169227F8CF8600AF37BF /* Project object */;
 }

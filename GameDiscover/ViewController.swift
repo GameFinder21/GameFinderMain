@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import AlamofireImage
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
@@ -58,6 +59,12 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         cell.nameLabel.text = name
         cell.ratingLabel.text = rating
         cell.descriptionLabel.text = description
+        
+    
+        let image = game["image_background"] as! String
+        let posterURL = URL(string: image)!
+        
+        cell.posterView.af.setImage(withURL: posterURL)
         
         return cell
     }

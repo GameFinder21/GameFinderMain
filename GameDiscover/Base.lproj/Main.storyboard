@@ -58,6 +58,7 @@
                                         <connections>
                                             <outlet property="descriptionLabel" destination="xTS-gK-ctd" id="x1j-hx-ibR"/>
                                             <outlet property="nameLabel" destination="fed-74-PRh" id="uNb-RO-Z3N"/>
+                                            <outlet property="posterView" destination="zVy-Ji-VqI" id="JSt-Lz-0su"/>
                                             <outlet property="ratingLabel" destination="ZOi-7g-ol1" id="XPl-oo-PoF"/>
                                         </connections>
                                     </tableViewCell>
