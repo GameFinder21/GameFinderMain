@@ -96,3 +96,6 @@ Allow users to discover new games and keep track of their current inventory.  (t
 
 ##### Game API
 - Base URL - [https://rawg.io/apidocs#use-cases](https://rawg.io/apidocs#use-cases)
+
+### Current Video walkthrough - last updated April 7,2022
+<img src='https://media.giphy.com/media/tADWLRViPwWMzUishm/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
