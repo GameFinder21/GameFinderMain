@@ -54,11 +54,15 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         let game = games[indexPath.row]
         let name = game["name"] as! String
         let rating = game["rating"] as! String
-        let description = game["description"] as! String
+        let platform = game["platforms"] as! String
+        let releasedDate = game["released"] as! String
+        let store = game["stores"] as! String
         
         cell.nameLabel.text = name
         cell.ratingLabel.text = rating
-        cell.descriptionLabel.text = description
+        cell.platformLabel.text = platform
+        cell.releasedDateLabel.text = releasedDate
+        cell.storeLabel.text = store
         
     
         let image = game["image_background"] as! String

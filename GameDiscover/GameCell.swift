@@ -12,8 +12,12 @@ class GameCell: UITableViewCell {
     @IBOutlet weak var nameLabel: UILabel!
     
     @IBOutlet weak var ratingLabel: UILabel!
+
+    @IBOutlet weak var platformLabel: UILabel!
     
-    @IBOutlet weak var descriptionLabel: UILabel!
+    @IBOutlet weak var storeLabel: UILabel!
+    
+    @IBOutlet weak var releasedDateLabel: UILabel!
     
     @IBOutlet weak var posterView: UIImageView!
     
