@@ -53,22 +53,22 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
         let game = games[indexPath.row]
         let name = game["name"] as! String
-        let rating = game["rating"] as! String
-        let platform = game["platforms"] as! String
+       // let rating = game["rating"] as! String// is it int
+       // let platform = game["platforms"] as! String
         let releasedDate = game["released"] as! String
-        let store = game["stores"] as! String
+       // let store = game["stores"] as! String
         
-        cell.nameLabel.text = name
-        cell.ratingLabel.text = rating
-        cell.platformLabel.text = platform
-        cell.releasedDateLabel.text = releasedDate
-        cell.storeLabel.text = store
+        cell.nameLabel.text = name // this works
+        //cell.ratingLabel.text = rating
+       // cell.platformLabel.text = platform
+        cell.releasedDateLabel.text = releasedDate // this works
+     //   cell.storeLabel.text = store
         
     
-        let image = game["image_background"] as! String
-        let posterURL = URL(string: image)!
+       //let image = game["image_background"] as! String
+       //let posterURL = URL(string: image)!
         
-        cell.posterView.af.setImage(withURL: posterURL)
+      //  cell.posterView.af.setImage(withURL: posterURL)
         
         return cell
     }
