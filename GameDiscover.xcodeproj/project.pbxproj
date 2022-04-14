@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		1AA09C8A61E856194E23396E /* Pods_GameDiscover.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B72A4049913E6CA5ABEEE2CD /* Pods_GameDiscover.framework */; };
 		46AEBBDD5A4147ACE26D677A /* Pods_GameDiscoverTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9C942C5522F2BB6970706EA /* Pods_GameDiscoverTests.framework */; };
+		6CA0B945280620CD00AAAD11 /* GameDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA0B944280620CD00AAAD11 /* GameDetailsViewController.swift */; };
+		6CA0B9492806668000AAAD11 /* GameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA0B9482806668000AAAD11 /* GameData.swift */; };
 		966F169E27F8CF8600AF37BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966F169D27F8CF8600AF37BF /* AppDelegate.swift */; };
 		966F16A027F8CF8600AF37BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966F169F27F8CF8600AF37BF /* SceneDelegate.swift */; };
 		966F16A227F8CF8600AF37BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966F16A127F8CF8600AF37BF /* ViewController.swift */; };
@@ -42,6 +44,8 @@
 
 /* Begin PBXFileReference section */
 		161486C9D862A4F2A66B94D5 /* Pods-GameDiscoverTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameDiscoverTests.release.xcconfig"; path = "Target Support Files/Pods-GameDiscoverTests/Pods-GameDiscoverTests.release.xcconfig"; sourceTree = "<group>"; };
+		6CA0B944280620CD00AAAD11 /* GameDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetailsViewController.swift; sourceTree = "<group>"; };
+		6CA0B9482806668000AAAD11 /* GameData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameData.swift; sourceTree = "<group>"; };
 		7038AEBFAC038222CEAFF621 /* Pods-GameDiscover-GameDiscoverUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameDiscover-GameDiscoverUITests.release.xcconfig"; path = "Target Support Files/Pods-GameDiscover-GameDiscoverUITests/Pods-GameDiscover-GameDiscoverUITests.release.xcconfig"; sourceTree = "<group>"; };
 		73EBBB7FD07A20F02D28C290 /* Pods-GameDiscover.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameDiscover.debug.xcconfig"; path = "Target Support Files/Pods-GameDiscover/Pods-GameDiscover.debug.xcconfig"; sourceTree = "<group>"; };
 		7C9E593241598AEB2BA52D81 /* Pods-GameDiscover.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameDiscover.release.xcconfig"; path = "Target Support Files/Pods-GameDiscover/Pods-GameDiscover.release.xcconfig"; sourceTree = "<group>"; };
@@ -105,7 +109,6 @@
 				81B77054A49BAC13ACA5F058 /* Pods-GameDiscoverTests.debug.xcconfig */,
 				161486C9D862A4F2A66B94D5 /* Pods-GameDiscoverTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -152,6 +155,8 @@
 				966F16A827F8CF8800AF37BF /* LaunchScreen.storyboard */,
 				966F16AB27F8CF8800AF37BF /* Info.plist */,
 				CA13A09C27FE726A0009FFB3 /* GameCell.swift */,
+				6CA0B944280620CD00AAAD11 /* GameDetailsViewController.swift */,
+				6CA0B9482806668000AAAD11 /* GameData.swift */,
 			);
 			path = GameDiscover;
 			sourceTree = "<group>";
@@ -420,6 +425,8 @@
 			files = (
 				966F16A227F8CF8600AF37BF /* ViewController.swift in Sources */,
 				966F169E27F8CF8600AF37BF /* AppDelegate.swift in Sources */,
+				6CA0B945280620CD00AAAD11 /* GameDetailsViewController.swift in Sources */,
+				6CA0B9492806668000AAAD11 /* GameData.swift in Sources */,
 				966F16A027F8CF8600AF37BF /* SceneDelegate.swift in Sources */,
 				CA13A09D27FE726A0009FFB3 /* GameCell.swift in Sources */,
 			);

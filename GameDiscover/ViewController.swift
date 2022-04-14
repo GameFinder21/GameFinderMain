@@ -58,7 +58,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         let releasedDate = game["released"] as! String
         
         cell.nameLabel.text = name
-        cell.ratingLabel.text = String(rating)
+        cell.ratingLabel.text = String(rating) + "/5"
         //cell.platformLabel.text = platform
         cell.releasedDateLabel.text = releasedDate
      //   cell.storeLabel.text = store
@@ -74,6 +74,27 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         //let platformName = platform["name"] as!String
         // let store = game["stores"] as! String
         return cell
+    }
+    
+    
+    // MARK: - Navigation
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destination.
+        // Pass the selected object to the new view controller.
+        print("Loading up the details screen")
+        
+        // Find the selected movie
+        let cell = sender as! UITableViewCell
+        let indexPath = tableView.indexPath(for: cell)!
+        let game = games[indexPath.row]
+        
+        // Pass the selected movie to the details view controller
+        let detailsViewController = segue.destination as! GameDetailsViewController
+        detailsViewController.game = game as! [String : Any]
+        
+        tableView.deselectRow(at: indexPath, animated: true)
+        
     }
 }
 
