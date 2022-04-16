@@ -26,7 +26,7 @@ Allow users to discover new games and keep track of their current inventory.  (t
 **Required Must-have Stories**
 
 - [X] Automatically shows users newly released games. // this is CHECKED OFF
-- [ ] User scrolls through games and can click on game image for more information 
+- [X] User scrolls through games and can click on game image for more information 
 - [ ] User can heart game they find interesting to add to their inventory 
 - [ ] User can go to inventory of likes 
 
@@ -102,3 +102,9 @@ Allow users to discover new games and keep track of their current inventory.  (t
 
 ### Current Video walkthrough - last updated April 7,2022
 <img src='https://media.giphy.com/media/7yro9mObJvoKwWJhlv/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+
+
+
+### Current Video walkthrough - last updated April 14,2022
+https://user-images.githubusercontent.com/81440356/163466962-3016463f-9a42-48df-b5cd-b115c236200a.gif
