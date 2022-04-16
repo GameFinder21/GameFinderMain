@@ -107,4 +107,4 @@ Allow users to discover new games and keep track of their current inventory.  (t
 
 
 ### Current Video walkthrough - last updated April 14,2022
-https://user-images.githubusercontent.com/81440356/163466962-3016463f-9a42-48df-b5cd-b115c236200a.gif
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/81440356/163466962-3016463f-9a42-48df-b5cd-b115c236200a.gif)
