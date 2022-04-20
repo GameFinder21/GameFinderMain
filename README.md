@@ -110,4 +110,4 @@ Allow users to discover new games and keep track of their current inventory.  (t
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/81440356/163466962-3016463f-9a42-48df-b5cd-b115c236200a.gif)
 
 ### Current Video walkthrough - last updated April 20,2022
-<img src= 'https://media.giphy.com/media/2N4I7OwTMWaRzt3Vub/giphy.giff' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src= 'https://media.giphy.com/media/2N4I7OwTMWaRzt3Vub/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
