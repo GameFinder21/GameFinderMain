@@ -5,13 +5,22 @@
 //  Created by Emarah Charles on 4/2/22.
 //
 
+import Parse
 import UIKit
 import AlamofireImage
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
     
-
+    @IBAction func onLogoutButton(_ sender: Any) {
+        PFUser.logOut()
+        let main = UIStoryboard (name: "Main", bundle: nil)
+        let loginViewController = main.instantiateViewController(identifier: "LoginViewController")
+        guard let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene, let
+        delegate = windowScene.delegate as? SceneDelegate else { return }
+        delegate.window? .rootViewController = loginViewController
+    }
+    
     @IBOutlet weak var tableView: UITableView!
     
    // var games = [[String:Any]]()
@@ -67,9 +76,22 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
        let image = game["background_image"] as! String
        let posterURL = URL(string: image)!
         
-        cell.posterView.af.setImage(withURL: posterURL)
+      cell.posterView.af.setImage(withURL: posterURL)
         
         
+//        let favorites =  PFObject(className: "Favorites")
+//        favorites["author"] = PFUser.current()!
+//        favorites["gameName"] = game["name"] as! String
+//
+////        favorites.saveInBackground { (success, error) in
+////            if success {
+////                print("saved")
+////            }else {
+////                print("error!")
+////
+////                }
+////            }
+//
         //let platform = game[["platforms"]?["name"]] as! String // option 1
         //let platformName = platform["name"] as!String
         // let store = game["stores"] as! String

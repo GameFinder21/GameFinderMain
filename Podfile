@@ -7,6 +7,7 @@ target 'GameDiscover' do
 
   # Pods for GameDiscover
   pod "AlamofireImage" 
+  pod 'Parse'
 
   target 'GameDiscoverTests' do
     inherit! :search_paths
