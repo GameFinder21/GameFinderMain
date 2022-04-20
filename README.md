@@ -27,12 +27,12 @@ Allow users to discover new games and keep track of their current inventory.  (t
 
 - [X] Automatically shows users newly released games. // this is CHECKED OFF
 - [X] User scrolls through games and can click on game image for more information 
-- [ ] User can heart game they find interesting to add to their inventory 
+- [X] User can heart game they find interesting to add to their inventory 
 - [ ] User can go to inventory of likes 
 
 **Optional Nice-to-have Stories**
 
-* Login and Logout option 
+* [X] Login and Logout option 
 * User profile pages for each user
 * Bookmarks pages for each user
 * Adding comment on a post
@@ -100,11 +100,14 @@ Allow users to discover new games and keep track of their current inventory.  (t
 ##### Game API
 - Base URL - [https://rawg.io/apidocs#use-cases](https://rawg.io/apidocs#use-cases)
 
+
+
+
 ### Current Video walkthrough - last updated April 7,2022
 <img src='https://media.giphy.com/media/7yro9mObJvoKwWJhlv/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-
-
-
 ### Current Video walkthrough - last updated April 14,2022
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/81440356/163466962-3016463f-9a42-48df-b5cd-b115c236200a.gif)
+
+### Current Video walkthrough - last updated April 20,2022
+<img src= 'https://media.giphy.com/media/2N4I7OwTMWaRzt3Vub/giphy.giff' title='Video Walkthrough' width='' alt='Video Walkthrough' />
