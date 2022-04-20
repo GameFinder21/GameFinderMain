@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Games -->
+        <!--Recently Released Games -->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="GameDiscover" customModuleProvider="target" sceneMemberID="viewController">
@@ -20,7 +20,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <color key="separatorColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="separatorColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="GameCell" rowHeight="177" id="J34-29-X9R" customClass="GameCell" customModule="GameDiscover" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="44.666666030883789" width="414" height="177"/>
@@ -40,15 +40,8 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Store" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xTS-gK-ctd">
-                                                    <rect key="frame" x="197" y="112" width="169" height="37"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Platform" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tvY-Y8-7z3">
-                                                    <rect key="frame" x="197" y="95" width="173" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Released:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xTS-gK-ctd">
+                                                    <rect key="frame" x="197" y="105" width="169" height="32"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -56,13 +49,6 @@
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Released Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fce-c8-1u0">
                                                     <rect key="frame" x="197" y="145" width="178" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rating" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZOi-7g-ol1">
-                                                    <rect key="frame" x="195" y="66" width="173" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -77,13 +63,19 @@
                                                         <action selector="favoriteGame:" destination="J34-29-X9R" eventType="touchUpInside" id="74R-oV-RCe"/>
                                                     </connections>
                                                 </button>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rating" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZOi-7g-ol1">
+                                                    <rect key="frame" x="195" y="69" width="173" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
                                             <outlet property="faveButton" destination="RCu-wt-o4U" id="wgb-m8-gWV"/>
                                             <outlet property="nameLabel" destination="fed-74-PRh" id="uNb-RO-Z3N"/>
-                                            <outlet property="platformLabel" destination="tvY-Y8-7z3" id="fCd-hr-eeB"/>
                                             <outlet property="posterView" destination="zVy-Ji-VqI" id="JSt-Lz-0su"/>
                                             <outlet property="ratingLabel" destination="ZOi-7g-ol1" id="XPl-oo-PoF"/>
                                             <outlet property="releasedDateLabel" destination="Fce-c8-1u0" id="SSl-xB-ONN"/>
@@ -95,9 +87,10 @@
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Games " id="kr5-Rw-KS7">
+                    <navigationItem key="navigationItem" title="Recently Released Games " id="kr5-Rw-KS7">
                         <barButtonItem key="leftBarButtonItem" title="Logout" id="wcX-Ug-vmu">
                             <connections>
                                 <action selector="onLogoutButton:" destination="BYZ-38-t0r" id="iUl-4w-mAN"/>
@@ -110,7 +103,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-740" y="805"/>
+            <point key="canvasLocation" x="-740" y="804.73933649289097"/>
         </scene>
         <!--Game Details View Controller-->
         <scene sceneID="2nn-3j-S2a">
@@ -246,29 +239,73 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G6S-Js-jAY">
-                                <rect key="frame" x="174" y="237" width="42" height="20.333333333333314"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="144" y="194" width="102" height="20.333333333333343"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="hys-0s-4Ab">
-                                <rect key="frame" x="75" y="108.66666666666666" width="240" height="128"/>
+                                <rect key="frame" x="75" y="57.666666666666664" width="240" height="127.99999999999997"/>
+                                <color key="tintColor" systemColor="systemPurpleColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="OeV-yA-Ok7"/>
                                     <constraint firstAttribute="height" constant="130.66999999999999" id="ku5-ub-eZz"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Games hearted " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hqY-Ll-gwL">
-                                <rect key="frame" x="16" y="332" width="121" height="21"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="SSZ-2T-Nb3">
+                                <rect key="frame" x="16" y="309" width="358" height="464"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bff-D4-A0r">
-                                <rect key="frame" x="16" y="361" width="358" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="LikedTableViewCell" rowHeight="140" id="AcV-3E-xDK" customClass="LikedTableViewCell" customModule="GameDiscover" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="44.666666030883789" width="358" height="140"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="AcV-3E-xDK" id="MgH-SA-CS9">
+                                            <rect key="frame" x="0.0" y="0.0" width="358" height="140"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zlz-JI-fLz">
+                                                    <rect key="frame" x="299" y="27" width="54" height="95"/>
+                                                    <state key="normal" title="Button"/>
+                                                    <buttonConfiguration key="configuration" style="plain" image="favor-icon-red" title=""/>
+                                                </button>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="T2b-U0-nUM">
+                                                    <rect key="frame" x="10.000000000000007" y="7" width="114.66666666666669" height="126"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="126" id="GWe-E9-fta"/>
+                                                        <constraint firstAttribute="width" constant="114.67" id="Zn9-fY-LCR"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You didn't heart this game!Keep on scrolling" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WAU-tQ-dps">
+                                                    <rect key="frame" x="148" y="35" width="142.33333333333337" height="80"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottomMargin" secondItem="WAU-tQ-dps" secondAttribute="bottom" constant="14" id="0RC-ZQ-nwI"/>
+                                                <constraint firstItem="T2b-U0-nUM" firstAttribute="top" secondItem="MgH-SA-CS9" secondAttribute="top" constant="7" id="Kcp-Nr-cNl"/>
+                                                <constraint firstItem="WAU-tQ-dps" firstAttribute="top" secondItem="MgH-SA-CS9" secondAttribute="topMargin" constant="24" id="NFH-7o-EBl"/>
+                                                <constraint firstAttribute="bottom" secondItem="Zlz-JI-fLz" secondAttribute="bottom" constant="18" id="NeJ-9F-XxL"/>
+                                                <constraint firstItem="Zlz-JI-fLz" firstAttribute="top" secondItem="MgH-SA-CS9" secondAttribute="top" constant="27" id="TAq-ps-F8L"/>
+                                                <constraint firstItem="T2b-U0-nUM" firstAttribute="leading" secondItem="MgH-SA-CS9" secondAttribute="leading" constant="10" id="fAZ-lr-W1J"/>
+                                                <constraint firstAttribute="bottom" secondItem="T2b-U0-nUM" secondAttribute="bottom" constant="7" id="iju-g0-Pvq"/>
+                                                <constraint firstItem="Zlz-JI-fLz" firstAttribute="leading" secondItem="MgH-SA-CS9" secondAttribute="leading" constant="299" id="nPY-PJ-qBR"/>
+                                                <constraint firstItem="Zlz-JI-fLz" firstAttribute="leading" secondItem="WAU-tQ-dps" secondAttribute="trailing" constant="8" id="vXj-gD-dmE"/>
+                                                <constraint firstItem="WAU-tQ-dps" firstAttribute="leading" secondItem="T2b-U0-nUM" secondAttribute="trailing" constant="23.999999999999943" id="x2k-yX-JdK"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="gameName" destination="WAU-tQ-dps" id="R1a-df-NbD"/>
+                                            <outlet property="gamePosterView" destination="T2b-U0-nUM" id="NFR-44-sX2"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Games hearted " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hqY-Ll-gwL">
+                                <rect key="frame" x="131" y="237" width="129" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -276,12 +313,15 @@
                         <viewLayoutGuide key="safeArea" id="HNu-R0-csA"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="hys-0s-4Ab" firstAttribute="top" secondItem="HNu-R0-csA" secondAttribute="top" constant="51" id="Gt6-E6-XLL"/>
+                            <constraint firstItem="hys-0s-4Ab" firstAttribute="top" secondItem="HNu-R0-csA" secondAttribute="top" constant="7.602807272633072e-13" id="Gt6-E6-XLL"/>
                             <constraint firstItem="HNu-R0-csA" firstAttribute="trailing" secondItem="hys-0s-4Ab" secondAttribute="trailing" constant="75" id="Pjd-6p-nAk"/>
-                            <constraint firstItem="G6S-Js-jAY" firstAttribute="top" secondItem="HNu-R0-csA" secondAttribute="top" constant="181" id="bZ9-aX-o3o"/>
-                            <constraint firstItem="HNu-R0-csA" firstAttribute="trailing" secondItem="G6S-Js-jAY" secondAttribute="trailing" constant="174" id="dIv-4B-DQY"/>
+                            <constraint firstItem="HNu-R0-csA" firstAttribute="trailing" secondItem="hqY-Ll-gwL" secondAttribute="trailing" constant="130" id="YD9-Bh-dPi"/>
+                            <constraint firstItem="G6S-Js-jAY" firstAttribute="top" secondItem="HNu-R0-csA" secondAttribute="top" constant="138" id="bZ9-aX-o3o"/>
+                            <constraint firstItem="HNu-R0-csA" firstAttribute="trailing" secondItem="G6S-Js-jAY" secondAttribute="trailing" constant="144" id="dIv-4B-DQY"/>
                             <constraint firstItem="hys-0s-4Ab" firstAttribute="leading" secondItem="HNu-R0-csA" secondAttribute="leading" constant="75" id="fm1-Wq-V5l"/>
-                            <constraint firstItem="G6S-Js-jAY" firstAttribute="leading" secondItem="HNu-R0-csA" secondAttribute="leading" constant="174" id="xyb-wc-DIU"/>
+                            <constraint firstItem="hqY-Ll-gwL" firstAttribute="top" secondItem="G6S-Js-jAY" secondAttribute="bottom" constant="22.670000000000002" id="oAd-e9-gUl"/>
+                            <constraint firstItem="hqY-Ll-gwL" firstAttribute="leading" secondItem="HNu-R0-csA" secondAttribute="leading" constant="131" id="tJR-SM-aJi"/>
+                            <constraint firstItem="G6S-Js-jAY" firstAttribute="leading" secondItem="HNu-R0-csA" secondAttribute="leading" constant="144" id="xyb-wc-DIU"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="vFU-EN-Fgz">
@@ -292,7 +332,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="GamesHearted" destination="bff-D4-A0r" id="SAU-YK-CcM"/>
+                        <outlet property="LikedtableView" destination="SSZ-2T-Nb3" id="WBh-Tl-CwU"/>
                         <outlet property="usernameLabel" destination="G6S-Js-jAY" id="MqM-Z2-eyY"/>
                     </connections>
                 </viewController>
@@ -360,6 +400,7 @@
     <resources>
         <image name="Icon-180" width="180" height="180"/>
         <image name="favor-icon" width="30" height="30"/>
+        <image name="favor-icon-red" width="30" height="30"/>
         <image name="person" catalog="system" width="128" height="117"/>
         <image name="star" catalog="system" width="128" height="116"/>
         <systemColor name="systemBackgroundColor">

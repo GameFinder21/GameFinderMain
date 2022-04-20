@@ -8,11 +8,14 @@
 import Parse
 import UIKit
 
-class ProfileViewController: UIViewController {
-    
+class ProfileViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+
+
+    @IBOutlet weak var LikedtableView: UITableView!
     @IBOutlet weak var usernameLabel: UILabel!
-    
     @IBOutlet weak var GamesHearted: UILabel!
+    var faves = [PFObject]()  // this is an array of faves  - think i want this saved under users
+    
     
     @IBAction func onLogOutButton(_ sender: Any) {
         PFUser.logOut()
@@ -23,32 +26,75 @@ class ProfileViewController: UIViewController {
         delegate.window? .rootViewController = loginViewController
     }
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-//        let query = PFQuery(className:"Favorites")
-//        query.includeKeys(["author", "gameNames"])
-//        query.limit = 20
-//
-//        query.findObjectsInBackground {(gameNames, error) in
-//            if gameNames != nil {
-//                self.GamesHearted.text! = gameNames
-//
-//            }
-//        }
         
+        LikedtableView.delegate = self
+        LikedtableView.dataSource = self
+        
+        //This is for the username label on profile page
         var currentUser = PFUser.current()
-        
         if currentUser != nil {
-            usernameLabel.text = currentUser?.username
-           // GamesHearted.text =
-        } else {
-          // Show the signup or login screen???
+            usernameLabel.text = "Hey, " + (currentUser?.username)!
         }
-        // Do any additional setup after loading the view.
-       
-     // print(Favorites)
+        
     }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        let query = PFQuery(className:"Favorites")
+        query.includeKeys(["author","gameName", "gameName.author"]) // asking Parse to send me the game names
+        query.limit = 20
+        
+        query.findObjectsInBackground { (faves,error) in
+            if faves != nil {
+                self.faves = faves!
+                self.LikedtableView.reloadData()
+            }
+        }
+    }
+    
+    func numberOfSections(in tableView: UITableView) -> Int {
+        
+       return 1// this is causing problems
+        
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return faves.count
+    }
+    
+    
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let fave = faves[indexPath.row]
+        //let gameName = (fave["gameName"] as? [PFObject]) ?? []
+        //let gameNamePrint = fave[indexPath.section]
+        
+        let cell = LikedtableView.dequeueReusableCell(withIdentifier: "LikedTableViewCell") as! LikedTableViewCell
+        
+    //kinda sorta works??
+         let currentUser = PFUser.current()!
+         let user = fave["author"] as! PFUser
+        
+         let likeUser = user.username
+         let cUser = currentUser.username
+        
+         if  likeUser == cUser{
+            cell.gameName.text = fave["gameName"] as? String
+            let imageFile = fave["gamePoster"] as! PFFileObject
+            let urlString = imageFile.url!
+            let url = URL(string: urlString)!
+            cell.gamePosterView.af.setImage(withURL: url)
+            return cell
+
+         }else{
+             return cell
+         }
+    
+        }
     
     
     

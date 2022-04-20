@@ -77,21 +77,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
        let posterURL = URL(string: image)!
         
       cell.posterView.af.setImage(withURL: posterURL)
-        
-        
-//        let favorites =  PFObject(className: "Favorites")
-//        favorites["author"] = PFUser.current()!
-//        favorites["gameName"] = game["name"] as! String
-//
-////        favorites.saveInBackground { (success, error) in
-////            if success {
-////                print("saved")
-////            }else {
-////                print("error!")
-////
-////                }
-////            }
-//
+
         //let platform = game[["platforms"]?["name"]] as! String // option 1
         //let platformName = platform["name"] as!String
         // let store = game["stores"] as! String

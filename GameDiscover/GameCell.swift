@@ -43,6 +43,17 @@ class GameCell: UITableViewCell {
             self.setFavorite(true)
             favorites["author"] = PFUser.current()!
             favorites["gameName"] = nameLabel.text!
+            //favorites["gamePoster"] = posterView.image!
+            
+            let imageData = posterView.image!.pngData()
+            let file = PFFileObject(name: "image.png", data: imageData!)
+            favorites["gamePoster"] = file
+            
+            
+        
+             
+           //cell.posterView.af.setImage(withURL: posterURL)
+
 //        }, failure: { (error) in
 //            print("Favorite did not succceed: \(error)")
     }
