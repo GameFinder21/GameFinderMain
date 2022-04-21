@@ -109,7 +109,11 @@ Allow users to discover new games and keep track of their current inventory.  (t
 ###  Video walkthrough - last updated April 20,2022
 <img src= 'https://media.giphy.com/media/2N4I7OwTMWaRzt3Vub/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-###  CURRENT Video walkthrough - last updated April 20,2022
+### Video walkthrough - last updated April 20,2022
 <img src= 'https://media.giphy.com/media/FNazBNyIThbymLnrJw/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+###  CURRENT Video walkthrough - last updated April 21,2022
+<img src= 'https://media.giphy.com/media/QTIA0v23HI0VgHK3mx/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 
 
