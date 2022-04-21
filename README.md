@@ -28,12 +28,12 @@ Allow users to discover new games and keep track of their current inventory.  (t
 - [X] Automatically shows users newly released games. // this is CHECKED OFF
 - [X] User scrolls through games and can click on game image for more information 
 - [X] User can heart game they find interesting to add to their inventory 
-- [ ] User can go to inventory of likes 
+- [X] User can go to inventory of likes 
 
 **Optional Nice-to-have Stories**
 
 * [X] Login and Logout option 
-* User profile pages for each user
+* [X] User profile pages for each user
 * Bookmarks pages for each user
 * Adding comment on a post
 
@@ -55,9 +55,6 @@ Allow users to discover new games and keep track of their current inventory.  (t
 
 * Game infomation
    * Jumps to a more deatil page
-
-### Current Video walkthrough - last updated April 7,2022
-<img src='https://media.giphy.com/media/7yro9mObJvoKwWJhlv/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ## Wireframes
 <img src="https://user-images.githubusercontent.com/90946653/161089641-b6e91b8a-8c60-4de8-8fe2-0210af51bbaf.JPG" width=600>
@@ -103,11 +100,16 @@ Allow users to discover new games and keep track of their current inventory.  (t
 
 
 
-### Current Video walkthrough - last updated April 7,2022
+### Video walkthrough - last updated April 7,2022
 <img src='https://media.giphy.com/media/7yro9mObJvoKwWJhlv/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-### Current Video walkthrough - last updated April 14,2022
+###  Video walkthrough - last updated April 14,2022
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/81440356/163466962-3016463f-9a42-48df-b5cd-b115c236200a.gif)
 
-### Current Video walkthrough - last updated April 20,2022
+###  Video walkthrough - last updated April 20,2022
 <img src= 'https://media.giphy.com/media/2N4I7OwTMWaRzt3Vub/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+###  CURRENT Video walkthrough - last updated April 20,2022
+<img src= 'https://media.giphy.com/media/FNazBNyIThbymLnrJw/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+
