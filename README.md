@@ -11,7 +11,6 @@
 Allow users to discover new games and keep track of their current inventory.
 
 ### App Evaluation
-[Evaluation of your app across the following attributes]
 - **Category:** Social networking / game
 - **Mobile:** This app was developed for mobile phones
 - **Story:** Show newly released games and promote games better suited to the user
@@ -108,7 +107,7 @@ Allow users to discover new games and keep track of their current inventory.
 <img src='https://media.giphy.com/media/7yro9mObJvoKwWJhlv/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ###  Video walkthrough - last updated April 14,2022
-![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/81440356/163466962-3016463f-9a42-48df-b5cd-b115c236200a.gif)
+<img src= 'https://user-images.githubusercontent.com/81440356/163466962-3016463f-9a42-48df-b5cd-b115c236200a.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ###  Video walkthrough - last updated April 20,2022
 <img src= 'https://media.giphy.com/media/2N4I7OwTMWaRzt3Vub/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
