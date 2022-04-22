@@ -100,6 +100,15 @@ Allow users to discover new games and keep track of their current inventory.
 ##### Game API
 - Base URL - [https://rawg.io/apidocs#use-cases](https://rawg.io/apidocs#use-cases)
 
+##### Back4App/ Parse
+
+ | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | username     | String   | unique username for each user |
+   | password        |string| unique password for each user |
+   | gameName| String   |game name stored from users liked game |
+   | gamePoster| File  | game background image stored from users liked game |
+
 
 
 
