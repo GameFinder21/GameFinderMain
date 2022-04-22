@@ -8,18 +8,18 @@
 
 ## Overview
 ### Description
-Allow users to discover new games and keep track of their current inventory.  (to be edited)
+Allow users to discover new games and keep track of their current inventory.
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
-- **Category:** Social networking / game  (to be edited)
-- **Mobile:** This app was developed for mobile phones  (to be edited)
-- **Story:** Show newly released games and promote games better suited to the user (to be edited)
-- **Market:** People interested in games  (to be edited)
+- **Category:** Social networking / game
+- **Mobile:** This app was developed for mobile phones
+- **Story:** Show newly released games and promote games better suited to the user
+- **Market:** People interested in games
 - **Habit:** This app could be used as often or unoften as the user wanted depending on how intereted they are in the current gaming market. 
-- **Scope:** At first we would show the newly released game to the user, and then with time as the user likes games/adds to their invenotry we can promote games better suited to their taste.(to be edited) 
+- **Scope:** At first we would show the newly released game to the user, and then with time as the user likes games/adds to their invenotry we can promote games better suited to their taste.
 
-## Product Spec. (to be edited)
+## Product Spec.
 
 ### 1. User Stories (Required and Optional)
 
@@ -44,27 +44,33 @@ Allow users to discover new games and keep track of their current inventory.  (t
 * Game information screen 
    * Allows user to see the details for each game 
 
+* Login screen
+ * Allows user to login and sign up 
+
+* User Profile screen
+ * Allows user to see their profile page and the games they liked
+  
+
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
 * Game selection
 * Home page
+* Profile page
 
 **Flow Navigation** (Screen to Screen)
 
 * Game infomation
    * Jumps to a more deatil page
 
+* Login 
+   * Jumps to game list 
+
 ## Wireframes
 <img src="https://user-images.githubusercontent.com/90946653/161089641-b6e91b8a-8c60-4de8-8fe2-0210af51bbaf.JPG" width=600>
 
-### [BONUS] Digital Wireframes & Mockups
-
-### [BONUS] Interactive Prototype
-
 ## Schema 
-[This section will be completed in Unit 9]
 ### Models
 #### Post
 
@@ -76,11 +82,9 @@ Allow users to discover new games and keep track of their current inventory.  (t
    | title         | String   | game title from API |
    | rating        | Number   | game rating from API |
    | image         | File     | image from API for each game|
-   | comment       | String   | comment from API for each game |
-   | slug          | String   | slug from API for each game|
-   | commentsCount | Number   | number of comments that has been posted to an game| 
    | createdAt     | DateTime | date when like is created (default field) (Optional)| 
    | updatedAt     | DateTime | date when like is last updated (default field) (Optional)|
+   
 ### Networking
 #### List of network requests by screen
    - Home Feed Screen
